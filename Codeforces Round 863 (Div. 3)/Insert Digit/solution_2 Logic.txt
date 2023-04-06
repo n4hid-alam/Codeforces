@@ -1,0 +1,16 @@
+in this code,
+we run a loop from 0 to len and check if 
+each string is greater than or not. if greater then we print
+that string value and do this until we reach the end of the loop.
+then outside the loop we print digit.
+
+else, we print the value of digit and then
+again run a loop from i to len; here we print remain string numbers 
+and return ;
+
+1. Input
+2. Loop (0 to n)
+3. if (s[i] >= d) then, print s[i]
+4. else if (s[i] < d) then, print d and run loop from i to n
+    and print remain values. then return; else go to step 3;
+5. print d and return from the function;

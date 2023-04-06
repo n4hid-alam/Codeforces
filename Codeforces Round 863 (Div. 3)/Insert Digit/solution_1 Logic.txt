@@ -1,0 +1,17 @@
+Here we tried to figure out every possible outcome
+and find the max one.
+
+making a max_num string to store maximum number, here
+first add digit in the beginning
+
+then, run a loop (1 - len), and using substr() function
+divide the string number in two part and in between them
+put digit and add them and then check whether it is greater than max_num. if yes then put in into the max_num string. 
+ex:
+ 1234 5
+1. 1 + 5 + 234 == 15234
+2. 12 + 5 + 34 == 12534
+3. 123 + 5 + 4 == 12354
+
+after then make another string called last_num here add digit in the end and checking whether its greater than max_num or not. if yes then put it into the max_num.
+then print max_num
